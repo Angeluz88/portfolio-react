@@ -2,12 +2,13 @@ import CircleImage from "@/app/components/circle-image";
 import TransitionPage from "@/app/components/transitionPage";
 import AvatarServices from "@/app/components/avatar-services";
 import SliderServices from "@/app/components/slider-services";
+import { CoverParticles } from "@/app/components/cover-particles";
 
 const ServicePage = () => {
   return (
     <>
       <TransitionPage />
-      <CircleImage />
+      <CoverParticles />
       <AvatarServices />
       <div
         className=" m-10 grid items-center justify-center h-screen max-w-5xl gap-6 
@@ -25,7 +26,7 @@ const ServicePage = () => {
               la identidad de marca de mis clientes y mejoran su presencia en
               línea.
             </p>
-          <button className="px-3 py-2 rounded-lg bg-secondary/65">Contacta Conmigo</button>
+          <button className="px-3 py-2 rounded-lg bg-secondary/65"> <a href="mailto:saccone.sebastian@gmail.com">Contacta Conmigo</a></button>
         </div>
 
         {/* SLIDER*/}

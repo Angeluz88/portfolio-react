@@ -30,7 +30,7 @@ const SliderServices = () => {
        className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]">
         {serviceData.map((item, index) =>(
             <SwiperSlide key={index}>
-                <div className="flex flex-col px-6 py-8 h-auto md:h-[290px] rounded-lg 
+                <div className="flex flex-col px-6 py-8 h-auto md:h-[300px] rounded-lg 
                 cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 
                 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300
                  hover:border-secondary border-2">

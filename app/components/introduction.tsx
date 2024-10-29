@@ -7,7 +7,7 @@ const Introduction = () => {
     return ( 
         <div className="z-20 w-full bg-darkBg/60">
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image src="/home-4.png" priority width="400" height="400" alt="Profile pic"/>
+                <Image className="ml-15" src="/home-4.png" priority width="450" height="450" alt="Profile pic"/>
 
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="nb-5 text-2xl leading-tight text-center md:text-left
@@ -37,15 +37,15 @@ const Introduction = () => {
                        a todos los usuarios. Convinando diseño y funcionalidades de vanguardia.  
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start  md:gap-10">
-                        <a href="/proyects" 
+                        <a href="./portfolio" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl 
                         hover:shadow-lg hover:shadow-secondary hover:text-secondary hover:border-secondary">
                             Ver Proyectos
                         </a>
-                        <a href="/contacto" 
+                        <a href="https://w.app/DevSaccone" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer  text-md w-fit rounded-xl 
                         hover:shadow-lg hover:shadow-secondary hover:text-secondary hover:border-secondary">
-                            Contacta Conmigo
+                            Enviame un WhatsApp
                         </a>
                     </div>
 
