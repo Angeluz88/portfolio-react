@@ -1,6 +1,6 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail, Wallpaper, BookOpenCheck, Crop, DatabaseZap, Computer, Book, Rocket, Figma, Palette, TabletSmartphone, Cpu, Lollipop, Github, GithubIcon, GitBranchIcon } from "lucide-react";
-import { RiJavascriptLine, RiCss3Line, RiHtml5Line, RiReactjsLine, RiNextjsLine, RiTailwindCssLine, RiNodejsLine, RiBootstrapLine } from "@remixicon/react";
-import { TbArtboard, TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDesk, TbDeviceDesktop, TbGitCommit, TbGitMerge, TbLayout, TbLayout2, TbLayoutFilled, TbLollipop, TbPaint, TbPencil, TbResize, TbSql, TbSun, TbWallpaper, TbXd } from "react-icons/tb";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail,  BookOpenCheck, Computer, Book, Rocket, TabletSmartphone } from "lucide-react";
+
+import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDeviceDesktop, TbGitMerge, TbLayoutFilled, TbLollipop, TbPencil, TbSql } from "react-icons/tb";
 
  export const socialNetworks = [
     {
