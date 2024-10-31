@@ -1,17 +1,16 @@
-import CircleImage from "@/app/components/circle-image";
+
 import TransitionPage from "@/app/components/transitionPage";
-import AvatarServices from "@/app/components/avatar-services";
 import SliderServices from "@/app/components/slider-services";
 import { CoverParticles } from "@/app/components/cover-particles";
+
 
 const ServicePage = () => {
   return (
     <>
       <TransitionPage />
       <CoverParticles />
-      <AvatarServices />
       <div
-        className=" m-10 grid items-center justify-center h-screen max-w-5xl gap-6 
+        className=" mt-30 m-10 grid items-center justify-center h-screen max-w-5xl gap-6 
        mx-auto md:grid-cols-2 "
       >
         <div className="max-w-[450px]">
@@ -34,6 +33,7 @@ const ServicePage = () => {
             <SliderServices />
         </div>
       </div>
+      
     </>
   );
 };

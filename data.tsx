@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail, Youtube, Crop, Pencil, Computer, Book, Rocket, ProportionsIcon, Figma, Palette, TabletSmartphone, Proportions } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail, Wallpaper, BookOpenCheck, Crop, DatabaseZap, Computer, Book, Rocket, ProportionsIcon, Figma, Palette, TabletSmartphone, Proportions, Cpu, Lollipop, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -45,6 +45,12 @@ export const itemsNavbar = [
         title: "Target",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
+    },
+    {
+        id: 5,
+        title: "Target",
+        icon: <BookOpenCheck size={25} color="#fff" strokeWidth={1} />,
+        link: "/skills",
     },
     
 ];
@@ -196,5 +202,44 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/Angeluz88/next_documentation_app",
         urlDemo: "https://simpli-pokedex.netlify.app",
     }
+];
+export const skillsData = [
+    {
+    icon: <Wallpaper />,
+    title: "Front-End",
+    description: "Diseño y desarrollo de sitios web a medida, responsivos, adaptados a tus necesidades",
+    },
+  
+    {
+        icon: <TabletSmartphone />,
+        title: "Diseño UX/UI",
+        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+    },
+    {
+        
+        icon: <Cpu />,
+        title: "Back-End",
+        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia llamando a la accion.",
+    },
+    {
+        icon: <Palette />,
+        title: "Estilos",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+    },
+    {
+        icon: <DatabaseZap />,
+        title: "Bases de Datos",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+    },
+    {
+        icon: <Github />,
+        title: "Control de Versiones",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+    },
+    {
+        icon: <Lollipop />,
+        title: "Soft Skills",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+    },
 ];
 
