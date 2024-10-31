@@ -1,6 +1,8 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail, Wallpaper, BookOpenCheck, Crop, DatabaseZap, Computer, Book, Rocket, ProportionsIcon, Figma, Palette, TabletSmartphone, Proportions, Cpu, Lollipop, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail, Wallpaper, BookOpenCheck, Crop, DatabaseZap, Computer, Book, Rocket, Figma, Palette, TabletSmartphone, Cpu, Lollipop, Github, GithubIcon, GitBranchIcon } from "lucide-react";
+import { RiJavascriptLine, RiCss3Line, RiHtml5Line, RiReactjsLine, RiNextjsLine, RiTailwindCssLine, RiNodejsLine, RiBootstrapLine } from "@remixicon/react";
+import { TbArtboard, TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDesk, TbDeviceDesktop, TbGitCommit, TbGitMerge, TbLayout, TbLayout2, TbLayoutFilled, TbLollipop, TbPaint, TbPencil, TbResize, TbSql, TbSun, TbWallpaper, TbXd } from "react-icons/tb";
 
-export const socialNetworks = [
+ export const socialNetworks = [
     {
         id: 1,
         logo: <Mail size={30} strokeWidth={1} />,
@@ -205,41 +207,49 @@ export const dataPortfolio = [
 ];
 export const skillsData = [
     {
-    icon: <Wallpaper />,
+    icon: <TbDeviceDesktop/>,
     title: "Front-End",
-    description: "Diseño y desarrollo de sitios web a medida, responsivos, adaptados a tus necesidades",
+    description: "desarrollo de interfaces vibrantes y modernas aplicando las ultimas tecnologias y tendencias de diseño, sin dejar de lado la funcionalidad y el desempeño.",
+    img:[<TbBrandJavascript/>, <TbBrandTypescript/>,  <TbBrandHtml5/>, <TbBrandReact/>, <TbBrandNextjs/>, ]
     },
   
     {
-        icon: <TabletSmartphone />,
+        icon: <TbLayoutFilled />,
         title: "Diseño UX/UI",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "Diseño creativo, persuasivo y multiplataforma, basado en la investigacion de mercado y centrado en la experiencia de Usuario y el Branding profecional. ",
+        img:[<TbBrandFigma/>, <TbBrandAdobe /> ],
     },
     {
         
-        icon: <Cpu />,
+        icon: <TbCpu2 />,
         title: "Back-End",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia llamando a la accion.",
+        description: "Implementacion de las ultimas tecnologias para la creacion de APIs Rest y gestion de la comunicacion con los servidores y APIs externas de manera rapida, segura y eficaz.  ",
+        img:[<TbBrandTypescript/>, <TbBrandNodejs/>, <TbBrandJavascript/>],
     },
     {
-        icon: <Palette />,
+        icon: <TbPencil />,
         title: "Estilos",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+        description: "manejo de estilos en CSS nativo y las principales librerias y frameworks como Bulma, Material UI y Sass entre otros. ",
+        img:[<TbBrandCss3/>, <TbBrandSass/>,<TbBrandTailwind/>, <TbBrandBootstrap/> ]
     },
     {
-        icon: <DatabaseZap />,
+        icon: <TbDatabase />,
         title: "Bases de Datos",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+        description: "Bases de datos Relacionales y no relacionales.",
+        img:[<TbBrandMysql/>, <TbSql/>, <TbBrandMongodb/>, <TbBrandFirebase/>]
     },
     {
-        icon: <Github />,
+        icon: <TbGitMerge />,
         title: "Control de Versiones",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+        description: "Manejo de cambios, trabajo colaborativo y control de versiones con las principales herramientas del mercado.  ",
+        img:[<TbBrandGit/>,<TbBrandGithub/>]
     },
     {
-        icon: <Lollipop />,
+        icon: <TbLollipop />,
         title: "Soft Skills",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
+        description:["Skrum, kanban (Udemy).", <br/>, "Ingles B1 (test de idioma, Platzi).", <br/>, "Custumer Experience (Teleperformance).", <br/>,"Marketing Digital / Analitica Web (Google Learning, Fundacion Telefonica)."],
+        
+       
     },
 ];
 

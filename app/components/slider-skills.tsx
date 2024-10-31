@@ -2,7 +2,6 @@
 
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { skillsData } from '@/data';
 
 const SliderSkills = () => {
@@ -34,9 +33,10 @@ const SliderSkills = () => {
                 cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 
                 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300
                  hover:border-secondary border-2">
-                    <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
-                    <div className="mb-4 text-lg">{item.title}</div>
+                    <div className="mb-4 text-5xl text-secondary">{item.icon}</div>
+                    <div className="mb-4 text-xl text-secondary">{item.title}</div>
                     <div className="text-sm">{item.description}</div>
+                    <h2 className="flex text-secondary md:text-3xl m-2">{item.img}</h2>
                  </div>
             </SwiperSlide>
         ))}

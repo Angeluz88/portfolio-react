@@ -17,6 +17,7 @@ const SkilsPage = () => {
             mis <span className="font-bold text-secondary">Habilidades</span>
             </h1>  
             <div>
+            
             <SliderSkills />
         </div>        
         </div>
