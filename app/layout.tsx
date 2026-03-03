@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar'
 
 import "./globals.css";
 
-import NavBar from "./components/navbar";
+import Navbar from "./components/navbar";
 import Header from "./components/header";
 
 const roboto = Roboto_Slab({ subsets: ["latin"] });
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={roboto.className}>
-      < NavBar />
+      < Navbar />
       <Header />
       {children}</body>
     </html>

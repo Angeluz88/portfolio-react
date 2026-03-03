@@ -27,7 +27,7 @@ const SliderSkills = () => {
        }}
        modules={[Pagination]}
        className="h-[380px] md:h-[540px] w-[350px] md:w-[1050px]">
-        {skillsData.map((item, index) =>(
+        {skillsData.map((item, index, key) =>(
             <SwiperSlide key={index}>
                 <div className="flex flex-col px-6 py-8 md:h-[300px] rounded-lg 
                 cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 

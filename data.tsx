@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail,  BookOpenCheck, Computer, Book, Rocket, TabletSmartphone } from "lucide-react";
+import {CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail,  BookOpenCheck, Computer, Book, Rocket, TabletSmartphone } from "lucide-react";
 
 import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDeviceDesktop, TbGitMerge, TbLayoutFilled, TbLollipop, TbPencil, TbSql } from "react-icons/tb";
 
@@ -6,12 +6,12 @@ import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFireb
     {
         id: 1,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "mailto:saccone.sebastian@gmail.com",
+        src: "mailto:saccone.sebastian@gmail.com" ,
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "https://linkedin.com/in/devsaccone",
+        src: "https://linkedin.com/in/angelsaccone",
     },
     
     {
@@ -35,12 +35,6 @@ export const itemsNavbar = [
         title: "User",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/aboutMe",
-    },
-    {
-        id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-        link: "/services",
     },
     {
         id: 4,
@@ -100,14 +94,14 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 3,
+        endCounter: 4,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 16,
+        endCounter: 6,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
@@ -120,31 +114,6 @@ export const dataCounter = [
         lineRightMobile: true,
     },
     
-];
-
-export const serviceData = [
-    {
-    icon: <Computer />,
-    title: "Desarrollo web",
-    description: "Diseño y desarrollo de sitios web a medida, responsivos, adaptados a tus necesidades",
-    },
-  
-    {
-        icon: <TabletSmartphone />,
-        title: "Diseño UX/UI",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
-        
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia llamando a la accion.",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, mejorando el posicionamiento en los buscadores. ",
-    },
 ];
 
 export const dataPortfolio = [
@@ -210,44 +179,75 @@ export const skillsData = [
     icon: <TbDeviceDesktop/>,
     title: "Front-End",
     description: "desarrollo de interfaces vibrantes y modernas aplicando las ultimas tecnologias y tendencias de diseño, sin dejar de lado la funcionalidad y el desempeño.",
-    img:[<TbBrandJavascript/>, <TbBrandTypescript/>,  <TbBrandHtml5/>, <TbBrandReact/>, <TbBrandNextjs/>, ]
+    img:[<TbBrandJavascript key= "1"/>,
+         <TbBrandTypescript key= "2"/>,  
+         <TbBrandHtml5 key= "3"/>, 
+         <TbBrandReact key= "4"/>, 
+         <TbBrandNextjs key= "5"/>, ]
     },
   
     {
         icon: <TbLayoutFilled />,
         title: "Diseño UX/UI",
         description: "Diseño creativo, persuasivo y multiplataforma, basado en la investigacion de mercado y centrado en la experiencia de Usuario y el Branding profecional. ",
-        img:[<TbBrandFigma/>, <TbBrandAdobe /> ],
+        img:[
+        <TbBrandFigma key="1"/>,
+         <TbBrandAdobe key= "2" /> 
+        ],
     },
     {
         
         icon: <TbCpu2 />,
         title: "Back-End",
         description: "Implementacion de las ultimas tecnologias para la creacion de APIs Rest y gestion de la comunicacion con los servidores y APIs externas de manera rapida, segura y eficaz.  ",
-        img:[<TbBrandTypescript/>, <TbBrandNodejs/>, <TbBrandJavascript/>],
+        img:[
+        <TbBrandTypescript key="1"/>,
+        <TbBrandNodejs key= "2"/>,
+        <TbBrandJavascript key="3"/>
+        ],
     },
     {
         icon: <TbPencil />,
         title: "Estilos",
         description: "manejo de estilos en CSS nativo y las principales librerias y frameworks como Bulma, Material UI y Sass entre otros. ",
-        img:[<TbBrandCss3/>, <TbBrandSass/>,<TbBrandTailwind/>, <TbBrandBootstrap/> ]
+        img:[
+        <TbBrandCss3 key= "1" />,
+        <TbBrandSass key= "2" />,
+        <TbBrandTailwind key= "3" />,
+        <TbBrandBootstrap key= "4" />, 
+    ],
     },
     {
         icon: <TbDatabase />,
         title: "Bases de Datos",
         description: "Bases de datos Relacionales y no relacionales.",
-        img:[<TbBrandMysql/>, <TbSql/>, <TbBrandMongodb/>, <TbBrandFirebase/>]
+        img:[
+        <TbBrandMysql key= "1"/>,
+        <TbSql key= "2"/>,
+        <TbBrandMongodb key="3"/>,
+        <TbBrandFirebase key= "4"/> 
+    ]
     },
     {
         icon: <TbGitMerge />,
         title: "Control de Versiones",
         description: "Manejo de cambios, trabajo colaborativo y control de versiones con las principales herramientas del mercado.  ",
-        img:[<TbBrandGit/>,<TbBrandGithub/>]
+        img:[ 
+        <TbBrandGit key= "1"/>,
+        <TbBrandGithub key= "2"/>
+    ]
     },
     {
         icon: <TbLollipop />,
         title: "Soft Skills",
-        description:["Skrum, kanban (Udemy).", <br/>, "Ingles B1 (test de idioma, Platzi).", <br/>, "Custumer Experience (Teleperformance).", <br/>,"Marketing Digital / Analitica Web (Google Learning, Fundacion Telefonica)."],
+        description:[
+            "Skrum, kanban (Udemy).",
+             <br key= "1"/>,
+            "Ingles B1 (test de idioma, Platzi).",
+             <br key= "2" />, "Custumer Experience (Teleperformance).",
+             <br key= "3" />,
+            "Marketing Digital / Analitica Web (Google Learning, Fundacion Telefonica)."
+            ],
         
        
     },

@@ -32,9 +32,9 @@ const Introduction = () => {
                     />
                     </h1>
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                      Como Diseñador UX/UI y Desarrollador web, 
+                      Como Desarrollador web fullSack, 
                       mi mision es la de crear experiencias digitales impactantes y accesibles
-                       a todos los usuarios. Convinando diseño y funcionalidades de vanguardia.  
+                       a todos los usuarios, apostando por la performance y diseño atractivo. Convinando conocimientos teoricos y funcionalidades de vanguardia.  
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start  md:gap-10">
                         <a href="./portfolio" 
