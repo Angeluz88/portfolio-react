@@ -1,6 +1,6 @@
 import {CodeSquare, HomeIcon, UserRound, Linkedin, LucideGithub, Mail,  BookOpenCheck, Computer, Book, Rocket, TabletSmartphone } from "lucide-react";
 
-import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDeviceDesktop, TbGitMerge, TbLayoutFilled, TbLollipop, TbPencil, TbSql } from "react-icons/tb";
+import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandHtml5, TbBrandJavascript, TbBrandMongodb, TbBrandMysql, TbBrandNextjs, TbBrandNodejs, TbBrandReact, TbBrandSass, TbBrandTailwind, TbBrandTypescript, TbCpu2, TbDatabase, TbDeviceDesktop, TbGitMerge, TbLayoutFilled, TbLollipop, TbPencil, TbSql, TbBusinessplan } from "react-icons/tb";
 
  export const socialNetworks = [
     {
@@ -53,21 +53,49 @@ export const itemsNavbar = [
 
 export const dataAboutPage = [
     {
+        id: 0,
+        title: "Growth Hacking",
+        subtitle: "Udemy",
+        description: "Potencia el Crecimiento de tus Productos Digitales, desde el Growth Marketing, usando Growth Hacking ",
+        date: "mar 2026",
+    },
+    {
         id: 1,
+        title: "Marketing Digital",
+        subtitle: "Hubspot Academy",
+        description: "Marketing digital con enfoque Inbound, mejores practicas y creacion de contenido atractivo tanto para motores de busqueda como para optimazacion web. ",
+        date: "jun 2025",
+    },
+    {
+        id: 2,
+        title: "ChatGPT aplicado al Marketing Profesional.",
+        subtitle: "Udemy",
+        description: "Realiza Marketing Digital como Un profesional con ChatGPT. Campañas y ejemplos prácticos con todo lo que necesitas saber. ",
+        date: "jun 2025",
+    },
+    {
+        id: 3,
+        title: "copywhriting & storytelling",
+        subtitle: "Udemy",
+        description: "Aprende a Conquistar, Persuadir, Cautivar y Emocionar a través de las palabras de tu Copy a tu audiencia,por Internet. ",
+        date: "jun 2025",
+    },
+    {
+        id: 4,
         title: "Diseño UX/UI",
         subtitle: "Udemy, Devsafio Latam",
         description: "Diseño de aplicasiones centradas en la experiencia del usuario, con interfaces modernas y atractivas a partir de los paradigmas de diseño actuales utilizando herramientas de ultima generacion. ",
         date: "jul 2024",
     },
     {
-        id: 2,
+        id: 5,
         title: "Full-Stack Developer",
         subtitle: "Numen Academy, Udemy",
         description: "Diplomatura en desarrollo web Full-Stack MERN, desarrollando conocimiento en las ultimas tecnologias y practicas en el desarrollo, motivando tambien trabajo colaborativo y habilidades blandas." ,
         date: "Nov 2023 ",
     },
     {
-        id: 3,
+        id: 6,
         title: "Marketing Digital y Analitica Web",
         subtitle: "Fundacion Telefonica",
         description: "curso de estrategias de Marketing Digital, posicionamiento en la web, optimizacion para motores de busqueda, analicis de kpis, resultados de campañas, seguimiento de estrategias.",
@@ -75,14 +103,14 @@ export const dataAboutPage = [
     },
     
     {
-        id: 4,
+        id: 7,
         title: "Marketing Digital",
         subtitle: "Google",
         description: "Estrategias de posicionamiento SEO/SEM, copywhiting y creacion de contenido persuasivo, estrategias de marketing en redes sociales, email marketing, etc. ",
         date: "nov 2019",
     },
     {
-        id: 5,
+        id: 8,
         title: "User Experience",
         subtitle: "Teleperformance",
         description: "Asesoramiento integral, resolucion de problemas y reclamos, actualizacion de base de datos, generacion de informes, trabajo bajo presion y por objetivos. ",
@@ -101,8 +129,8 @@ export const dataCounter = [
     },
     {
         id: 1,
-        endCounter: 6,
-        text: "Clientes satisfechos",
+        endCounter: 14,
+        text: " Años de experiencia en Customer Service",
         lineRight: true,
         lineRightMobile: false,
     },
@@ -237,6 +265,17 @@ export const skillsData = [
         <TbBrandGithub key= "2"/>
     ]
     },
+    {icon: <TbBusinessplan />,
+        title: "Marketing Digital",
+        description:[
+            "Copywhriting & Storytelling (Udemy).",
+             <br key= "1"/>,
+            "ChatGPT aplicado a Marketing Profecional (Udemy).",
+             <br key= "2" />, 
+             "Growt Hacking (Udemy).",
+             <br key= "3" />,
+            "Marketing Digital (Hubspot)."
+            ]},
     {
         icon: <TbLollipop />,
         title: "Soft Skills",
@@ -244,9 +283,10 @@ export const skillsData = [
             "Skrum, kanban (Udemy).",
              <br key= "1"/>,
             "Ingles B1 (test de idioma, Platzi).",
-             <br key= "2" />, "Custumer Experience (Teleperformance).",
+             <br key= "2" />, 
+             "Custumer Experience (Teleperformance).",
              <br key= "3" />,
-            "Marketing Digital / Analitica Web (Google Learning, Fundacion Telefonica)."
+            "Analitica Web (Google Learning, Fundacion Telefonica)."
             ],
         
        

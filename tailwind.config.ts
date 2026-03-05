@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors:{
         secondary: "#5db17b",
-        darkBg: "#020338"
+        darkBg: "#041322"
       },
       backgroundImage: {
         "gradient-cover":
