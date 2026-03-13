@@ -6,7 +6,7 @@ import { TbBrandAdobe, TbBrandBootstrap, TbBrandCss3, TbBrandFigma, TbBrandFireb
     {
         id: 1,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "mailto:saccone.sebastian@gmail.com" ,
+        src: "https://mailto:saccone.sebastian@gmail.com" ,
     },
     {
         id: 2,

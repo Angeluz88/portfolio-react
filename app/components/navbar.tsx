@@ -12,7 +12,7 @@ const Navbar = () => {
     const router = usePathname()
 
     return (
-        <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto mb-8 h-max bottom-10">
+        <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto mb-8 h-max bottom-0">
             <nav>
                 <div className="flex items-center m-4 justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
                     {itemsNavbar.map((item) => (
