@@ -14,7 +14,7 @@ const SkilsPage = () => {
       >
         <div className="max-w-[450px]">
           <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
-            mis <span className="font-bold text-secondary">Habilidades</span>
+            My <span className="font-bold text-secondary">Skills</span>
             </h1>  
             <div>
             
