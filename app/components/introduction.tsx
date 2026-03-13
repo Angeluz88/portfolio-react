@@ -41,12 +41,7 @@ const Introduction = () => {
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl 
                         hover:shadow-lg hover:shadow-secondary hover:text-secondary hover:border-secondary">
                             Ver Proyectos
-                        </a>
-                        <a href="https://w.app/DevSaccone" 
-                        className="px-3 py-2 transition-all border-2 cursor-pointer  text-md w-fit rounded-xl 
-                        hover:shadow-lg hover:shadow-secondary hover:text-secondary hover:border-secondary">
-                            Enviame un WhatsApp
-                        </a>
+                       </a>
                     </div>
 
                 </div>
