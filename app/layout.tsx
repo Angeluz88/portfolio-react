@@ -11,12 +11,13 @@ import "./globals.css";
 
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 const roboto = Roboto_Slab({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DevSaccone",
-  description: "Developer and UX/UI Designer Porfolio",
+  description: "FullStack Developer Porfolio",
 };
 
 export default function RootLayout({
@@ -28,13 +29,14 @@ export default function RootLayout({
     
     <html lang="es" >
       
-      <body  >
+      <body >
         <div className={roboto.className} suppressHydrationWarning>
       <Header />
       
       {children}
        </div>
        < Navbar />
+       <Footer/>
        </body>
      
     </html>

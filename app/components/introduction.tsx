@@ -6,10 +6,10 @@ import { TypeAnimation } from "react-type-animation";
 const Introduction = () => {
     return ( 
         <div className="z-20 w-full bg-darkBg/60">
-            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image className="ml-15" src="/home-4.png" priority width="450" height="450" alt="Profile pic"/>
+            <div className="z-20 md:flex justify-evenly  h-full p-6 py-20 md:py-10  md:grid-cols-2 ">
+                <Image className=" z-40 mt-10 justify-self-center" src="/home-4.png" priority width="180" height="180" alt="Profile pic"/>
 
-                <div className="flex flex-col justify-center max-w-md">
+                <div className=" flex flex-col justify-center max-w-md">
                     <h1 className="nb-5 text-2xl leading-tight text-center md:text-left
                     md:text-4xl md:mb-10 ">Si puedes imaginarlo,<br/>
 
