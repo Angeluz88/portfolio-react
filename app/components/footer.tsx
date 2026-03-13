@@ -1,6 +1,6 @@
 "use client"
 
-import { Fragment, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Footer = () => {
   const [year, setYear] = useState(new Date().getFullYear());
@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="flex pt-lg-10 pt-5 justify-center">      
+      <div className="flex pt-lg-10 pt-5 justify-center align-bottom">      
         <p>
             {`© ${year}. All Rights Reserved. images are created with AI`}
         </p>

@@ -16,8 +16,8 @@ const AboutMe = () => {
     <Avatar />
         <h1 className="text-2xl leading-tight text-center 
         md:text-left md:text-5xl md:mt-10">
-            Quien es {''}
-            <span className="font-bold text-secondary">DevSaccone</span>
+            Who is {''}
+            <span className="font-bold text-secondary">DevSaccone?</span>
         </h1>
 <CounterServices />
 <TimeLine />

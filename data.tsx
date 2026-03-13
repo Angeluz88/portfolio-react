@@ -56,47 +56,47 @@ export const dataAboutPage = [
         id: 0,
         title: "Growth Hacking",
         subtitle: "Udemy",
-        description: "Potencia el Crecimiento de tus Productos Digitales, desde el Growth Marketing, usando Growth Hacking ",
+        description: "Boost the growth of your digital products through growth marketing and growth hacking. ",
         date: "mar 2026",
     },
     {
         id: 1,
-        title: "Marketing Digital",
+        title: "Digital Marketing ",
         subtitle: "Hubspot Academy",
-        description: "Marketing digital con enfoque Inbound, mejores practicas y creacion de contenido atractivo tanto para motores de busqueda como para optimazacion web. ",
+        description: "Digital marketing with an inbound focus, best practices, and creation of engaging content for both search engines and website optimization. ",
         date: "jun 2025",
     },
     {
         id: 2,
-        title: "ChatGPT aplicado al Marketing Profesional.",
+        title: "ChatGPT applied to Professional Marketing.",
         subtitle: "Udemy",
-        description: "Realiza Marketing Digital como Un profesional con ChatGPT. Campañas y ejemplos prácticos con todo lo que necesitas saber. ",
+        description: "Do digital marketing like a pro with ChatGPT. Campaigns and practical examples with everything you need to know. ",
         date: "jun 2025",
     },
     {
         id: 3,
         title: "copywhriting & storytelling",
         subtitle: "Udemy",
-        description: "Aprende a Conquistar, Persuadir, Cautivar y Emocionar a través de las palabras de tu Copy a tu audiencia,por Internet. ",
+        description: "Learn to Conquer, Persuade, Captivate and Excite your audience through the words of your Copy, online. ",
         date: "jun 2025",
     },
     {
         id: 4,
-        title: "Diseño UX/UI",
+        title: "UX/UI Desing",
         subtitle: "Udemy, Devsafio Latam",
-        description: "Diseño de aplicasiones centradas en la experiencia del usuario, con interfaces modernas y atractivas a partir de los paradigmas de diseño actuales utilizando herramientas de ultima generacion. ",
+        description: "Design of applications focused on user experience, with modern and attractive interfaces based on current design paradigms using state-of-the-art tools. ",
         date: "jul 2024",
     },
     {
         id: 5,
         title: "Full-Stack Developer",
         subtitle: "Numen Academy, Udemy",
-        description: "Diplomatura en desarrollo web Full-Stack MERN, desarrollando conocimiento en las ultimas tecnologias y practicas en el desarrollo, motivando tambien trabajo colaborativo y habilidades blandas." ,
+        description: "Diploma in Full-Stack Web Development MERN, developing knowledge in the latest technologies and development practices, also motivating collaborative work and soft skills." ,
         date: "Nov 2023 ",
     },
     {
         id: 6,
-        title: "Marketing Digital y Analitica Web",
+        title: "Digital Marketing & Web Analitics",
         subtitle: "Fundacion Telefonica",
         description: "curso de estrategias de Marketing Digital, posicionamiento en la web, optimizacion para motores de busqueda, analicis de kpis, resultados de campañas, seguimiento de estrategias.",
         date: "Mar 2020",
@@ -104,16 +104,16 @@ export const dataAboutPage = [
     
     {
         id: 7,
-        title: "Marketing Digital",
+        title: "Digital Marketing",
         subtitle: "Google",
-        description: "Estrategias de posicionamiento SEO/SEM, copywhiting y creacion de contenido persuasivo, estrategias de marketing en redes sociales, email marketing, etc. ",
+        description: "SEO/SEM positioning strategies, copywriting and persuasive content creation, social media marketing strategies, email marketing, etc. ",
         date: "nov 2019",
     },
     {
         id: 8,
         title: "User Experience",
         subtitle: "Teleperformance",
-        description: "Asesoramiento integral, resolucion de problemas y reclamos, actualizacion de base de datos, generacion de informes, trabajo bajo presion y por objetivos. ",
+        description: "Comprehensive advice, problem and complaint resolution, database updates, report generation, working under pressure and towards objectives. ",
         date: "nov 2019",
     },
     
@@ -123,21 +123,21 @@ export const dataCounter = [
     {
         id: 0,
         endCounter: 4,
-        text: "Años de experiencia",
+        text: "Years of experience",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
         endCounter: 14,
-        text: " Años de experiencia en Customer Service",
+        text: "Years of experience in commercial activity",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
         endCounter: 22,
-        text: "Proyectos finalizados",
+        text: "Completed projects",
         lineRight: true,
         lineRightMobile: true,
     },
@@ -161,7 +161,7 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "e-commerce colaborativo",
+        title: "e-commerce collaborative",
         image: "/image-3.png",
         urlGithub: "https://github.com/Angeluz88/fullStack",
         urlDemo: "https://code-burgers.netlify.app",
@@ -206,7 +206,7 @@ export const skillsData = [
     {
     icon: <TbDeviceDesktop/>,
     title: "Front-End",
-    description: "desarrollo de interfaces vibrantes y modernas aplicando las ultimas tecnologias y tendencias de diseño, sin dejar de lado la funcionalidad y el desempeño.",
+    description: "Development of vibrant and modern interfaces applying the latest technologies and design trends, without neglecting functionality and performance.",
     img:[<TbBrandJavascript key= "1"/>,
          <TbBrandTypescript key= "2"/>,  
          <TbBrandHtml5 key= "3"/>, 
@@ -216,8 +216,8 @@ export const skillsData = [
   
     {
         icon: <TbLayoutFilled />,
-        title: "Diseño UX/UI",
-        description: "Diseño creativo, persuasivo y multiplataforma, basado en la investigacion de mercado y centrado en la experiencia de Usuario y el Branding profecional. ",
+        title: "UX/UI Desing",
+        description: "Creative, persuasive, and multi-platform design, based on market research and focused on user experience and professional branding. ",
         img:[
         <TbBrandFigma key="1"/>,
          <TbBrandAdobe key= "2" /> 
@@ -227,7 +227,7 @@ export const skillsData = [
         
         icon: <TbCpu2 />,
         title: "Back-End",
-        description: "Implementacion de las ultimas tecnologias para la creacion de APIs Rest y gestion de la comunicacion con los servidores y APIs externas de manera rapida, segura y eficaz.  ",
+        description: "Implementation of the latest technologies for the creation of REST APIs and management of communication with external servers and APIs in a fast, secure and efficient manner.  ",
         img:[
         <TbBrandTypescript key="1"/>,
         <TbBrandNodejs key= "2"/>,
@@ -236,8 +236,8 @@ export const skillsData = [
     },
     {
         icon: <TbPencil />,
-        title: "Estilos",
-        description: "manejo de estilos en CSS nativo y las principales librerias y frameworks como Bulma, Material UI y Sass entre otros. ",
+        title: "Styles",
+        description: "handling of styles in native CSS and the main libraries and frameworks such as Bulma, Material UI and Sass among others. ",
         img:[
         <TbBrandCss3 key= "1" />,
         <TbBrandSass key= "2" />,
@@ -247,8 +247,8 @@ export const skillsData = [
     },
     {
         icon: <TbDatabase />,
-        title: "Bases de Datos",
-        description: "Bases de datos Relacionales y no relacionales.",
+        title: "Data Bases",
+        description: "Relational and non-relational databases.",
         img:[
         <TbBrandMysql key= "1"/>,
         <TbSql key= "2"/>,
@@ -258,23 +258,23 @@ export const skillsData = [
     },
     {
         icon: <TbGitMerge />,
-        title: "Control de Versiones",
-        description: "Manejo de cambios, trabajo colaborativo y control de versiones con las principales herramientas del mercado.  ",
+        title: "Version control",
+        description: "Change management, collaborative work, and version control with the leading tools on the market.  ",
         img:[ 
         <TbBrandGit key= "1"/>,
         <TbBrandGithub key= "2"/>
     ]
     },
     {icon: <TbBusinessplan />,
-        title: "Marketing Digital",
+        title: "Digital Marketing",
         description:[
             "Copywhriting & Storytelling (Udemy).",
              <br key= "1"/>,
-            "ChatGPT aplicado a Marketing Profecional (Udemy).",
+            "ChatGPT applied to Professional Marketing (Udemy).",
              <br key= "2" />, 
              "Growt Hacking (Udemy).",
              <br key= "3" />,
-            "Marketing Digital (Hubspot)."
+            "Digital Marketing (Hubspot)."
             ]},
     {
         icon: <TbLollipop />,
@@ -282,11 +282,11 @@ export const skillsData = [
         description:[
             "Skrum, kanban (Udemy).",
              <br key= "1"/>,
-            "Ingles B1 (test de idioma, Platzi).",
+            "Ingles B1 (Platzi Language test).",
              <br key= "2" />, 
              "Custumer Experience (Teleperformance).",
              <br key= "3" />,
-            "Analitica Web (Google Learning, Fundacion Telefonica)."
+            "Web Analitics (Google Learning, Fundacion Telefonica)."
             ],
         
        

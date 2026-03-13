@@ -28,15 +28,14 @@ export default function RootLayout({
   return (
     
     <html lang="es" >
-      
-      <body >
+      <body className="flex flex-col">
         <div className={roboto.className} suppressHydrationWarning>
       <Header />
       
       {children}
        </div>
        < Navbar />
-       <Footer/>
+       
        </body>
      
     </html>
