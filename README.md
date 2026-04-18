@@ -37,7 +37,7 @@ It provides an interactive experience where users can explore my projects, acces
 ### Frontend
 - React.js
 - React Router
-- JavaScript (ES6+)
+- TypeScript 
 
 ### Styling
 - Tailwind CSS
